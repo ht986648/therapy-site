@@ -141,7 +141,7 @@ export default function Home() {
             </div>
           </motion.div>
           {/* Animated Scroll Indicator */}
-          <motion.div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white" animate={{ y: [0, 10, 0] }} transition={{ repeat: Infinity, duration: 1.5 }}>
+          <motion.div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white" animate={{ y: [20, 10, 0] }} transition={{ repeat: Infinity, duration: 2 }}>
             <ChevronDown className="w-8 h-8" />
           </motion.div>
         </section>

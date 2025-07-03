@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import "@fontsource/inter/variable.css";
-@import "@fontsource/playfair-display/variable.css";
+@import "@fontsource/inter/index.css";
+@import "@fontsource/playfair-display/index.css";
 
 @tailwind base;
 @tailwind components;
