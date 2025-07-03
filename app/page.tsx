@@ -1,6 +1,6 @@
 "use client";
 import * as React from 'react';
-import AreasOfFocus from '../components/Services';
+
 import { useState } from 'react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
@@ -10,7 +10,7 @@ import { Textarea } from '../components/ui/textarea';
 import { Checkbox } from '../components/ui/checkbox';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 import { MapPin, Phone, Mail, Clock, Star, Heart, Shield, Users, ChevronDown, Brain, Users2, Sparkles, Award, BookOpen, Calendar, CheckCircle } from 'lucide-react';
-import ContactFormWithRecaptcha from "../components/form-validation";
+
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Confetti from 'react-confetti';
